@@ -1,8 +1,8 @@
-# Open input file
-with open("./inputs/day2.txt", "r") as input_file:
+# Open day4.txt file
+with open('./inputs/day2.txt', 'r') as input_file:
     lines = [line.strip() for line in input_file]
 
-ranges = [line.split("-") for line in lines[0].split(",")]
+ranges = [line.split('-') for line in lines[0].split(',')]
 count = 0
 
 for r in ranges:

@@ -10,3 +10,4 @@ Written in [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 | 1   | ✅      | ✅      |
 | 2   | ✅      | ✅      |
 | 3   | ✅      | ✅      |
+| 4   | ✅      | ✅      |

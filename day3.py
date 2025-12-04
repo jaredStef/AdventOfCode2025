@@ -1,5 +1,5 @@
-# Open input file
-with open("./inputs/day3.txt", "r") as input_file:
+# Open day4.txt file
+with open('./inputs/day3.txt', 'r') as input_file:
     lines = [line.strip() for line in input_file]
 
 
@@ -7,7 +7,7 @@ examples = '''
 987654321111111
 811111111111119
 234234234234278
-818181911112111'''.lstrip().split("\n")
+818181911112111'''.lstrip().split('\n')
 
 # lines = examples
 size = 2
@@ -48,7 +48,8 @@ def process_bank(bank):
 
     return total
 
-# Process each line containing a power bank
-amount = sum([process_bank(bank) for bank in lines])
+if __name__ == '__main__':
+    # Process each line containing a power bank
+    amount = sum([process_bank(bank) for bank in lines])
 
-print(f'Joltages sum to: {amount}')
+    print(f'Joltages sum to: {amount}')
